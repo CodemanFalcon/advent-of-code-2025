@@ -2,6 +2,7 @@
 using AdventOfCode2025.Day2;
 using AdventOfCode2025.Day3;
 using AdventOfCode2025.Day4;
+using AdventOfCode2025.Day5;
 
 public class Program
 {
@@ -60,6 +61,9 @@ public class Program
                         Day4.SolveV2();
                     else
                         Day4.Solve();
+                    break;
+                case 5:
+                        Day5.Solve(false);
                     break;
                 default:
                     Console.WriteLine("Day not implemented");
